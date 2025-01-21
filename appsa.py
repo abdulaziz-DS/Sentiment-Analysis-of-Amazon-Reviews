@@ -1,4 +1,3 @@
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import streamlit as st
 import pandas as pd
 from streamlit_extras.colored_header import colored_header
@@ -6,6 +5,7 @@ from streamlit_extras.mention import mention
 from streamlit_extras.badges import badge
 from streamlit_extras.metric_cards import style_metric_cards
 import random
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Initialize VADER
 analyzer = SentimentIntensityAnalyzer()
