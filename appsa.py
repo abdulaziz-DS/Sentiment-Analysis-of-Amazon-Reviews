@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
-from streamlit_extras.colored_header import colored_header
-from streamlit_extras.mention import mention
-from streamlit_extras.badges import badge
-from streamlit_extras.metric_cards import style_metric_cards
+import streamlit_extras as se
+from se.colored_header import colored_header
+from se.mention import mention
+from se.badges import badge
+from se.metric_cards import style_metric_cards
 import random
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
