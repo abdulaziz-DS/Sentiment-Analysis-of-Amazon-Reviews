@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import streamlit_extras
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.mention import mention
 from streamlit_extras.badges import badge
