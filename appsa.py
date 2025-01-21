@@ -1,3 +1,4 @@
+import vaderSentiment
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import streamlit as st
 import pandas as pd
